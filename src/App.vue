@@ -109,7 +109,7 @@
             var damage = this.calculatedamage(max,min);
             this.playerHealth -= damage;
             this.turns.unshift({
-                text : "Monster attacks on player " + damage,
+                text : "Monster ATTACK on player " + damage,
                 isplayer : false
             });
         },
